@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#6b6bc5, #282846);
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(0.8);
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.copy{
+    padding: 10px 5px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+li{
+    font-size: 25px;
+    list-style: none;
+}
+
+span{
+    padding: 0 50px 0 20px;
+}
+
+.btnel:hover{
+    background-color: yellow;
+}
